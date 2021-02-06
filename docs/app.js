@@ -227,7 +227,7 @@ function addScore(){
 //gameOver function
 function gameOver() {
   if (current.some( index => squares[currentPosition + index].classList.contains('taken'))) {
-     alert(scoreDisplay.innerHTML = ' Game Over')
+     alert('Game Over')
       clearInterval(timerId)
   }
 }
